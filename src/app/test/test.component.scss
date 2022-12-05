@@ -1,0 +1,76 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.group {
+  left: 384px;
+  top: 79px;
+  position: absolute;
+  width: 1278px;
+  height: 1132px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.card {
+  left: 4.702247191011254px;
+  top: -0.3595630774337044px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.card_1 {
+  left: 9.75842696629219px;
+  top: 588.6853807427916px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.card_2 {
+  left: 423.1011235955057px;
+  top: 5.96066164166742px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.card_3 {
+  left: 826.2563867534005px;
+  top: 7.647503746930577px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.card_4 {
+  left: 822.8827025428742px;
+  top: 589.6080300627202px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.card_5 {
+  left: 421.83707865168566px;
+  top: 588.685380742791px;
+  position: absolute;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.avatar {
+  --background: none;
+}
+.button {
+  height: max-content;
+  min-width: min-content;
+}

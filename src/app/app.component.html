@@ -1,0 +1,57 @@
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
+<div class="row-layout group">
+  <div class="row-layout group_1">
+    <h6 class="h6">
+      Rapid Fission Inc.
+    </h6>
+    <button igxButton="flat" igxRipple routerLink="/home" class="button">
+      Home
+    </button>
+    <button igxButton="flat" igxRipple routerLink="/my-info" class="button_1">
+      My Info
+    </button>
+    <button igxButton="flat" [disabled]="true" igxRipple class="button_1">
+      People
+    </button>
+    <button igxButton="flat" [disabled]="true" igxRipple class="button_1">
+      My Files
+    </button>
+  </div>
+  <div class="row-layout group_2">
+    <button igxButton="icon" igxRipple class="button_2">
+      <igx-icon>
+        notifications
+      </igx-icon>
+    </button>
+    <igx-avatar src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" [roundShape]="true" class="avatar"></igx-avatar>
+  </div>
+</div>
+<igx-navbar class="navbar">
+  <igx-navbar-action>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <ng-container>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        search
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        favorite
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        more_vert
+      </igx-icon>
+    </button>
+  </ng-container>
+  <igx-navbar-title>Screen Title</igx-navbar-title>
+</igx-navbar>
