@@ -1,6 +1,28 @@
-<div class="view-container">
-  <router-outlet></router-outlet>
-</div>
+<igx-navbar class="navbar">
+  <igx-navbar-title>Screen Title</igx-navbar-title>
+  <igx-navbar-action>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <button igxButton="icon" igxRipple>
+    <igx-icon>
+      search
+    </igx-icon>
+  </button>
+  <button igxButton="icon" igxRipple>
+    <igx-icon>
+      favorite
+    </igx-icon>
+  </button>
+  <button igxButton="icon" igxRipple>
+    <igx-icon>
+      more_vert
+    </igx-icon>
+  </button>
+</igx-navbar>
 <div class="row-layout group">
   <div class="row-layout group_1">
     <h6 class="h6">
@@ -12,7 +34,7 @@
     <button igxButton="flat" igxRipple routerLink="/my-info" class="button_1">
       My Info
     </button>
-    <button igxButton="flat" [disabled]="true" igxRipple routerLink="/test" class="button_1">
+    <button igxButton="flat" igxRipple routerLink="/test" class="button_1">
       test
     </button>
     <button igxButton="flat" [disabled]="true" igxRipple class="button_1">
@@ -28,30 +50,11 @@
     <igx-avatar src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" [roundShape]="true" class="avatar"></igx-avatar>
   </div>
 </div>
-<igx-navbar class="navbar">
-  <igx-navbar-action>
-    <button igxButton="icon" igxRipple>
-      <igx-icon>
-        menu
-      </igx-icon>
-    </button>
-  </igx-navbar-action>
-  <ng-container>
-    <button igxButton="icon" igxRipple>
-      <igx-icon>
-        search
-      </igx-icon>
-    </button>
-    <button igxButton="icon" igxRipple>
-      <igx-icon>
-        favorite
-      </igx-icon>
-    </button>
-    <button igxButton="icon" igxRipple>
-      <igx-icon>
-        more_vert
-      </igx-icon>
-    </button>
-  </ng-container>
-  <igx-navbar-title>Screen Title</igx-navbar-title>
-</igx-navbar>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
+<div class="group_3">
+  <p class="text">
+    Copiright 2022 @ 
+  </p>
+</div>
